@@ -1,4 +1,4 @@
-# project_advhevogoober
+# Advhevogoobe
 
 **Aplicativo android para advogados e escritórios de advocacia, uma ferramenta que ﬂexiona o atendimento aos processos, 
 uma vez que escritórios ou advogados as vezes tem vários casos em um mesmo dia e falta advogados/tempo para atender esses casos. Esse flexionamento é feito através da terceirização de advogados para o processo necessitado de, as duas partes têm que aceitar os termos. 
