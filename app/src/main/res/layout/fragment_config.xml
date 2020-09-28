@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfigFragment">
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/jurisdictionGroup"
+        android:layout_width="360dp"
+        android:layout_height="143dp"
+        app:layout_constraintBottom_toTopOf="@+id/mapsRangeDesc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/jurisdictionDesc">
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/jurisdiction1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checkable="true"
+            android:text="@string/jurisdiction1"
+            android:textSize="24sp"
+            app:checkedIcon="@drawable/fui_ic_check_circle_black_128dp"
+            app:checkedIconVisible="true"
+            app:chipIconVisible="false" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/jurisdiction2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checkable="true"
+            android:text="@string/jurisdiction2"
+            android:textSize="24sp"
+            app:checkedIcon="@drawable/fui_ic_check_circle_black_128dp"
+            app:checkedIconVisible="true"
+            app:chipIconVisible="false" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/jurisdiction3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checkable="true"
+            android:text="@string/jurisdiction3"
+            android:textSize="24sp"
+            app:checkedIcon="@drawable/fui_ic_check_circle_black_128dp"
+            app:checkedIconVisible="true"
+            app:chipIconVisible="false"
+            app:closeIconVisible="false" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/jurisdiction4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checkable="true"
+            android:text="@string/jurisdiction4"
+            android:textSize="24sp"
+            app:checkedIcon="@drawable/fui_ic_check_circle_black_128dp"
+            app:checkedIconVisible="true"
+            app:chipIconVisible="false" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/jurisdiction5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checkable="true"
+            android:text="@string/jurisdiction5"
+            android:textSize="24sp"
+            app:checkedIcon="@drawable/fui_ic_check_circle_black_128dp"
+            app:checkedIconVisible="true"
+            app:chipIconVisible="false"
+            app:closeIconVisible="false" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/jurisdiction6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checkable="true"
+            android:text="@string/jurisdiction6"
+            android:textSize="24sp"
+            app:checkedIcon="@drawable/fui_ic_check_circle_black_128dp"
+            app:checkedIconVisible="true"
+            app:chipIconVisible="false" />
+    </com.google.android.material.chip.ChipGroup>
+
+    <TextView
+        android:id="@+id/jurisdictionDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/jurisdictionDesc"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/jurisdictionGroup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <SeekBar
+        android:id="@+id/mapsRange"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:max="500"
+        android:progress="1"
+        app:layout_constraintBottom_toTopOf="@+id/save_configs"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rangeNumber" />
+
+    <TextView
+        android:id="@+id/mapsRangeDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mapsRangeDesc"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/rangeNumber"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/jurisdictionGroup" />
+
+    <Button
+        android:id="@+id/save_configs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save_configs"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mapsRange" />
+
+    <TextView
+        android:id="@+id/rangeNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/mapsRange"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mapsRangeDesc" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">Adhevogoober</string>
+    <string name="title_activity_main" translatable="false">Advoguberr</string>
+    <string name="navigation_drawer_open">Abrir o navigation drawer</string>
+    <string name="navigation_drawer_close">Fechar o navigation drawer</string>
+    <string name="nav_header_title" translatable="false">Android Studio</string>
+    <string name="nav_header_subtitle" translatable="false">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Configurações</string>
+    <string name="menu_home">Página Inicial</string>
+    <string name="menu_myoffers">Minhas Ofertas</string>
+    <string name="menu_send">Enviar</string>
+    <string name="menu_logout" translatable="false">Logout</string>
+    <string name="action_logout" translatable="false">Logout</string>
+    <string name="choice">Você é um advogado ou um escritório?</string>
+    <string name="lawyer">Advogado</string>
+    <string name="office">Escritório</string>
+    <string name="next">Próximo</string>
+    <string name="name">Nome</string>
+    <string name="surname">Sobreome</string>
+    <string name="ssn" translatable="false">CPF (xxx.xxx.xxx-xx)</string>
+    <string name="oab_code">Código da OAB</string>
+    <string name="phone">Telefone (DD xxxxx-xxxx)</string>
+    <string name="business_id" translatable="false">CNPJ (xx.xxx.xxx/xxxx-xx)</string>
+    <string name="birthdate">Data de nascimento (dd/mm/yyyy)</string>
+    <string name="config">Configurações</string>
+    <string name="jurisdiction1">Vara 1</string>
+    <string name="jurisdiction2">Vara 2</string>
+    <string name="jurisdiction3">Vara 3</string>
+    <string name="jurisdiction4">Vara 4</string>
+    <string name="jurisdiction5">Vara 5</string>
+    <string name="jurisdiction6">Vara 6</string>
+    <string name="mapsRangeDesc">Alcance do mapa</string>
+    <string name="jurisdictionDesc">Ordenar ofertas por vara</string>
+    <string name="snackbar_explanation">Nosso aplicativo depende da permissão de localização para funcionar. Se não quiser aceitar por aqui, entre nas configurações do Android e aceite manualmente as permissões.</string>
+    <string name="jurisdiction">Vara</string>
+    <string name="date">Data</string>
+    <string name="price">Preço</string>
+    <string name="location">Local</string>
+    <string name="requirements">Requisitos</string>
+    <string name="post">publicar</string>
+    <string name="description">Descrição</string>
+    <string name="offerer">Ofertante</string>
+    <string name="city">Cidade</string>
+    <string name="state">Estado</string>
+    <string name="postalCode">CEP</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="profile">Perfil</string>
+    <string name="street">Endereço</string>
+    <string name="addLocal">Adicionar Local</string>
+    <string name="password">Senha</string>
+    <string name="noLocals">Vemos que você não tem um local adicionado ainda! Clique no botão esquerdo para adicionar um local de busca:</string>
+    <string name="save_configs">Salvar configurações</string>
+    <string name="Delete">Excluir</string>
+    <string name="edit">Editar</string>
+    <string name="conectar_se">Conectar-se</string>
+    <string name="btn_confirmar">Confirmar</string>
+    <string name="save">SALVAR</string>
+    <string name="new_email">Escreva seu novo e-mail</string>
+    <string name="escreva_a_mensagem">Escreva a mensagem...</string>
+    <string name="enviar">Enviar</string>
+    <string name="bem_vindo_sua_rede_profissional">Bem-vindo à sua rede profissional</string>
+    <string name="conta">Conta</string>
+    <string name="saldo_dispon_vel">Saldo disponível</string>
+    <string name="r_7_500_00" translatable="false">R$ 7.500,00</string>
+    <string name="selecionar_foto">Selecionar Foto</string>
+    <string name="nome">Nome</string>
+    <string name="sobrenome">Sobrenome</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="telefone">Telefone</string>
+    <string name="data_de_nascimento">Data de nascimento</string>
+    <string name="cpf">CPF</string>
+    <string name="salvar">Salvar</string>
+    <string name="selecionar_foto_2">selecionar foto</string>
+    <string name="selecione_sua_nova_foto">Selecione sua nova foto</string>
+    <string name="selecionar_tirar_foto">SELECIONAR/TIRAR FOTO</string>
+    <string name="offer_s_date">Data da Oferta</string>
+    <string name="voc_ficou_sem_logar_por_muito_tempo_ponha_seus_dados_de_login_novamente">Você ficou sem logar por muito tempo, ponha seus dados de login novamente</string>
+    <string name="reautenticar">Reautenticar</string>
+    <string name="preencha_os_campos_corretamente">Preencha os campos corretamente!</string>
+    <string name="completou_com_sucesso">Completou com sucesso!</string>
+    <string name="erro_ao_add_local">Ocorreu um erro na inserção do local.</string>
+
+    <string name="editLocal">Editar local</string>
+
+    <!--/-->
+    <string name="erro_ao_carregar_perfil">Erro ao carregar perfil</string>
+    <string name="erro_ao_criar_perfil">Erro ao criar perfil</string>
+    <string name="erro_ao_enviar_mensagem">Erro ao enviar a mensagem, o outro usuário não irá receber essa mensagem</string>
+    <string name="erro_ao_salvar_oferta">Não foi possível salvar a oferta!</string>
+    <string name="preencha_os_campos_corretamente_e_foto">Preencha todos os campos corretamente e selecione/tire uma foto!!</string>
+    <string name="tire_ou_selecione_foto">Tire ou selecione uma foto!</string>
+    <string name="erro_ao_tirar_ou_selecionar_foto">Erro ao selecionar/tirar foto</string>
+    <string name="erro_pegar_dados_firebase">Erro ao carregar seus dados</string>
+    <string name="erro_ao_carregar_imagem_perfil">Erro ao carregar a imagem de perfil</string>
+    <string name="deletar_oferta">Oferta deletada com sucesso!</string>
+    <string name="erro_ao_deletar_oferta">Erro ao deletar a oferta</string>
+    <string name="clique_para_detalhes"> (Clique para detalhes)</string>
+    <string name="voce_foi_reautenticado">Você foi reautenticado</string>
+    <string name="email_ou_senha_incorretos">O seu e-mail e/ou senha estão incorretos</string>
+    <string name="email_form_incorreto">O seu e-mail está com a formatação incorreta</string>
+    <string name="erro_auth_desconhecido">Erro desconhecido ao realizar a autenticação</string>
+    <string name="preencha_email_e_senha_corretamente">Preencha corretamente o campo de email e senha</string>
+    <string name="email_foi_atualizado">O seu email foi atualizado!!</string>
+    <string name="necessario_reautenticar">É necessário se reautenticar para realizar essa operação</string>
+    <string name="preencha_email_corretamente">Preencha o campo e-mail corretamente</string>
+    <string name="erro_ao_att_imagem">Houve um erro ao atualizar a imagem</string>
+    <string name="mensagens">Mensagens</string>
+    <string name="preparando_o_app">Preparando o app…</string>
+    <string name="buy_with_googlepay_button_content_description">Comprar com Google Pay</string>
+    <string name="payments_show_name">"Sucesso "</string>
+    <string name="toast_succeeded_payment">Dados de pagamento recebidos com sucesso</string>
+    <string name="menu_mysolicitations">Minhas solicitações</string>
+    <string name="candidate_button">Candidatos</string>
+    <string name="googlepay_button_content_description">Google Pay</string>
+    <string name="request_button">Aplicar</string>
+    <string name="title_activity_aplicants_tabs">Aba do Aplicante</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="offer_s_price">Preço da Oferta</string>
+    <string name="offer_s_location">Localização da Oferta</string>
+    <string name="offer_s_jurisdiction">Vara da Oferta</string>
+    <string name="offer_s_offerer">Ofertante da Oferta</string>
+    <!--/-->
+</resources>

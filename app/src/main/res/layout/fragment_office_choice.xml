@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".ChoiceFragment">
+
+    <EditText
+        android:id="@+id/office_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edtext_bg"
+        android:ems="10"
+        android:hint="@string/name"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textColorHint="@color/colorBackground"
+        app:layout_constraintBottom_toTopOf="@+id/office_phone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/office_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edtext_bg"
+        android:ems="10"
+        android:hint="@string/phone"
+        android:paddingLeft="10dp"
+        android:textColorHint="@color/colorBackground"
+        app:layout_constraintBottom_toTopOf="@+id/office_business_id"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/office_name" />
+
+    <EditText
+        android:id="@+id/office_business_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edtext_bg"
+        android:ems="10"
+        android:hint="@string/business_id"
+        android:inputType="date"
+        android:paddingLeft="10dp"
+        android:textColorHint="@color/colorBackground"
+        app:layout_constraintBottom_toTopOf="@+id/btnSaveOffice"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/office_phone" />
+
+    <Button
+        android:id="@+id/btnSaveOffice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_inv_btn"
+        android:text="@string/salvar"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/office_business_id" />
+
+    <Button
+        android:id="@+id/btnSavePhotoOffice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/selecionar_foto_2"
+        app:layout_constraintBottom_toTopOf="@+id/btnSaveOffice"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/office_business_id" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

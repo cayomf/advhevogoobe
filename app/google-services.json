@@ -1,0 +1,88 @@
+{
+  "project_info": {
+    "project_number": "527447445082",
+    "firebase_url": "https://projectadvhevogooberfinal.firebaseio.com",
+    "project_id": "projectadvhevogooberfinal",
+    "storage_bucket": "projectadvhevogooberfinal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:527447445082:android:a859b5303776be30ab5263",
+        "android_client_info": {
+          "package_name": "br.project_advhevogoober_final"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "527447445082-9s04rqvm6ur3jkrj1tbme19utadtsh3i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.project_advhevogoober_final",
+            "certificate_hash": "fb2a33a1d030ed2345a6444c9ae22838f020a688"
+          }
+        },
+        {
+          "client_id": "527447445082-981lt2kgqslku94ub1k7u605qg3qo780.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.project_advhevogoober_final",
+            "certificate_hash": "8c2941a11187db27699423ae9fc2aee0864f9026"
+          }
+        },
+        {
+          "client_id": "527447445082-eu25b9vthplblh8ad6jmja1tkgqm8kc1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.project_advhevogoober_final",
+            "certificate_hash": "ad2dde7cd553d3644d0e2bea48e6322dc070073f"
+          }
+        },
+        {
+          "client_id": "527447445082-mjr0r0n8u331b2400jvs20i6taesqj4u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.project_advhevogoober_final",
+            "certificate_hash": "a90f0eb089febe6a692086f81f9cf665a8a4872f"
+          }
+        },
+        {
+          "client_id": "527447445082-ntctieek4bh6scb23269skh4aiqu0ece.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.project_advhevogoober_final",
+            "certificate_hash": "3a675de556bb5318ac0b3e1564a9c134823fc333"
+          }
+        },
+        {
+          "client_id": "527447445082-9sulsb2sddiu8m0lvq1el0ff4hmen9pc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.project_advhevogoober_final",
+            "certificate_hash": "633aaa8f5cbdda3c30b3cc5be6abef530120d4f3"
+          }
+        },
+        {
+          "client_id": "527447445082-iek77mc21g6r13a0m87a5jfb08rvakfn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7nr6SjpbtCgafEvZGf_dIUJKjcp5xeg0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "527447445082-iek77mc21g6r13a0m87a5jfb08rvakfn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

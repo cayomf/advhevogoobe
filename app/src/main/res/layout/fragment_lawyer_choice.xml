@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".ChoiceFragment">
+
+    <EditText
+        android:id="@+id/lawyer_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edtext_bg"
+        android:ems="10"
+        android:hint="@string/name"
+        android:inputType="textPersonName"
+        android:paddingStart="10dp"
+        android:textColorHint="@color/colorBackground"
+        app:layout_constraintBottom_toTopOf="@+id/lawyer_surname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/lawyer_surname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edtext_bg"
+        android:ems="10"
+        android:hint="@string/surname"
+        android:inputType="textPersonName"
+        android:paddingStart="10dp"
+        android:textColorHint="@color/colorBackground"
+        app:layout_constraintBottom_toTopOf="@+id/lawyer_phone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lawyer_name" />
+
+    <EditText
+        android:id="@+id/lawyer_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edtext_bg"
+        android:ems="10"
+        android:hint="@string/phone"
+        android:paddingStart="10dp"
+        android:textColorHint="@color/colorBackground"
+        app:layout_constraintBottom_toTopOf="@+id/lawyer_birthdate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lawyer_surname" />
+
+    <EditText
+        android:id="@+id/lawyer_birthdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edtext_bg"
+        android:ems="10"
+        android:hint="@string/birthdate"
+        android:inputType="date"
+        android:paddingStart="10dp"
+        android:textColorHint="@color/colorBackground"
+        app:layout_constraintBottom_toTopOf="@+id/lawyer_ssn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lawyer_phone" />
+
+    <EditText
+        android:id="@+id/lawyer_ssn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edtext_bg"
+        android:ems="10"
+        android:hint="@string/ssn"
+        android:inputType="date"
+        android:paddingStart="10dp"
+        android:textColorHint="@color/colorBackground"
+        app:layout_constraintBottom_toTopOf="@+id/lawyer_oab_code"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lawyer_birthdate" />
+
+    <EditText
+        android:id="@+id/lawyer_oab_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edtext_bg"
+        android:ems="10"
+        android:hint="@string/oab_code"
+        android:inputType="number"
+        android:paddingStart="10dp"
+        android:textColorHint="@color/colorBackground"
+        app:layout_constraintBottom_toTopOf="@+id/btnSaveLawyer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lawyer_ssn" />
+
+    <Button
+        android:id="@+id/btnSaveLawyer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_inv_btn"
+        android:text="@string/salvar"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lawyer_oab_code" />
+
+    <Button
+        android:id="@+id/btnSelectPhotoLawyer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/selecionar_foto"
+        app:layout_constraintBottom_toTopOf="@+id/btnSaveLawyer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lawyer_oab_code" />
+</androidx.constraintlayout.widget.ConstraintLayout>

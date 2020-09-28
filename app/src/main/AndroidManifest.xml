@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.project_advhevogoober_final">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_adhevogoober2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ApplicantsProfileDetailsActivity"></activity>
+        <activity
+            android:name=".AplicantsTabsActivity"
+            android:label="@string/title_activity_aplicants_tabs"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".CheckoutActivity" />
+        <activity android:name=".ChatRoomsActivity" />
+        <activity android:name=".OfferDetailsActivity" />
+        <activity android:name=".ChatActivity" />
+        <activity android:name=".EditOfferActivity" />
+        <activity android:name=".ProfileOfferDetailsActivity" />
+        <activity android:name=".FirstTimeUserActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginRegisterActivity"
+            android:theme="@style/Theme.AppCompat.Light.Fullscreen" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:theme="@style/Theme.AppCompat.Light.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="com.google.android.gms.advhevogoober_final.api.enabled"
+            android:value="true" />
+    </application>
+
+</manifest>
